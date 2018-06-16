@@ -24,8 +24,8 @@
 		849D65C820D577A000D6182C /* InstructorVideosCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65C320D5777D00D6182C /* InstructorVideosCollection.swift */; };
 		849D65C920D577A000D6182C /* SkillsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65BF20D5777C00D6182C /* SkillsCollection.swift */; };
 		849D65CA20D577A000D6182C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65BE20D5777C00D6182C /* User.swift */; };
-		849D65CD20D577D200D6182C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65CC20D577D100D6182C /* ProfileViewModel.swift */; };
-		849D65D020D5780000D6182C /* ProfileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65CF20D5780000D6182C /* ProfileClient.swift */; };
+		849D65D920D57CB600D6182C /* ProfileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65D820D57CB600D6182C /* ProfileClient.swift */; };
+		849D65DC20D57D0300D6182C /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D65DB20D57D0300D6182C /* ProfileViewModel.swift */; };
 		84AEAF0C20C75C3500E5006A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAF0B20C75C3500E5006A /* AppDelegate.swift */; };
 		84AEAF0E20C75C3500E5006A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAF0D20C75C3500E5006A /* ViewController.swift */; };
 		84AEAF1120C75C3500E5006A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAF0F20C75C3500E5006A /* Main.storyboard */; };
@@ -72,8 +72,8 @@
 		849D65C120D5777D00D6182C /* CategoryCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollection.swift; sourceTree = "<group>"; };
 		849D65C220D5777D00D6182C /* InstructorUrlsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorUrlsCollection.swift; sourceTree = "<group>"; };
 		849D65C320D5777D00D6182C /* InstructorVideosCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructorVideosCollection.swift; sourceTree = "<group>"; };
-		849D65CC20D577D100D6182C /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewModel.swift; path = "../../../../../../../../Volumes/MINA YOUSRY/ProfileViewModel.swift"; sourceTree = "<group>"; };
-		849D65CF20D5780000D6182C /* ProfileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileClient.swift; path = "../../../../../../../../Volumes/MINA YOUSRY/ProfileClient.swift"; sourceTree = "<group>"; };
+		849D65D820D57CB600D6182C /* ProfileClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileClient.swift; sourceTree = "<group>"; };
+		849D65DB20D57D0300D6182C /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		84AEAF0820C75C3500E5006A /* TalentedInc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalentedInc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AEAF0B20C75C3500E5006A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AEAF0D20C75C3500E5006A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,20 +171,20 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		849D65CB20D577B600D6182C /* viewmodel */ = {
+		849D65D720D57C9B00D6182C /* client */ = {
 			isa = PBXGroup;
 			children = (
-				849D65CC20D577D100D6182C /* ProfileViewModel.swift */,
-			);
-			path = viewmodel;
-			sourceTree = "<group>";
-		};
-		849D65CE20D577E800D6182C /* client */ = {
-			isa = PBXGroup;
-			children = (
-				849D65CF20D5780000D6182C /* ProfileClient.swift */,
+				849D65D820D57CB600D6182C /* ProfileClient.swift */,
 			);
 			path = client;
+			sourceTree = "<group>";
+		};
+		849D65DA20D57CEB00D6182C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				849D65DB20D57D0300D6182C /* ProfileViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 		84AEAEFF20C75C3500E5006A = {
@@ -212,8 +212,8 @@
 		84AEAF0A20C75C3500E5006A /* TalentedInc */ = {
 			isa = PBXGroup;
 			children = (
-				849D65CE20D577E800D6182C /* client */,
-				849D65CB20D577B600D6182C /* viewmodel */,
+				849D65DA20D57CEB00D6182C /* viewmodel */,
+				849D65D720D57C9B00D6182C /* client */,
 				849D65AE20D5772D00D6182C /* model */,
 				8481A2C320D17F6D00449737 /* assests */,
 				8481A2BE20D17A6300449737 /* storyboards */,
@@ -440,13 +440,13 @@
 				849D65C520D577A000D6182C /* Instructor.swift in Sources */,
 				849D65C620D577A000D6182C /* InstructorImagesCollection.swift in Sources */,
 				849D65C720D577A000D6182C /* InstructorUrlsCollection.swift in Sources */,
-				849D65D020D5780000D6182C /* ProfileClient.swift in Sources */,
+				849D65D920D57CB600D6182C /* ProfileClient.swift in Sources */,
 				849D65C820D577A000D6182C /* InstructorVideosCollection.swift in Sources */,
 				849D65C920D577A000D6182C /* SkillsCollection.swift in Sources */,
-				849D65CD20D577D200D6182C /* ProfileViewModel.swift in Sources */,
 				849D65CA20D577A000D6182C /* User.swift in Sources */,
 				84559E5920D53E8600AF157A /* InterestCollectionViewCell.swift in Sources */,
 				8481A2D920D1A2C400449737 /* ProfileViewController.swift in Sources */,
+				849D65DC20D57D0300D6182C /* ProfileViewModel.swift in Sources */,
 				84AEAF0E20C75C3500E5006A /* ViewController.swift in Sources */,
 				84AEAF0C20C75C3500E5006A /* AppDelegate.swift in Sources */,
 			);

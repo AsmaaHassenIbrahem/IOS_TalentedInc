@@ -43,7 +43,7 @@ class ProfileViewController: UITableViewController, UICollectionViewDelegate,UIC
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return (profileViewModel.myUser?.categoryCollection?.count) ?? 0
+        return (profileViewModel.myUserFromApi?.categoryCollection?.count) ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -57,7 +57,7 @@ class ProfileViewController: UITableViewController, UICollectionViewDelegate,UIC
     }
     
     func setViews(){
-        let user = profileViewModel.myUser
+        let user = profileViewModel.myUserFromApi
         profileImg.sd_setImage(with: URL(string: (user?.imgUrl)!), placeholderImage: UIImage(named: "placeholder.png"))
         followersLbl.text = String((user?.followersNumber)!)
         followingLbl.text = String((user?.followingNumber)!)
