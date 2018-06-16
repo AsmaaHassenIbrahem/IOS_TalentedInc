@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		84767A3620D1BB72006F1B8C /* skillbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 84767A3520D1BB71006F1B8C /* skillbackground.png */; };
-		847B0C9E20D2897A00DD2886 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B0C9D20D2897A00DD2886 /* CollectionViewController.swift */; };
 		8481A2C020D17AA700449737 /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481A2BF20D17AA700449737 /* profile.storyboard */; };
 		8481A2C220D17F6A00449737 /* backgroundflat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8481A2C120D17F6A00449737 /* backgroundflat.png */; };
 		8481A2C520D195B700449737 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8481A2C420D195B600449737 /* placeholder.png */; };
@@ -24,6 +23,7 @@
 		84AEAF1620C75C4E00E5006A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AEAF1420C75C4E00E5006A /* LaunchScreen.storyboard */; };
 		84AEAF2120C75C4E00E5006A /* TalentedIncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAF2020C75C4E00E5006A /* TalentedIncTests.swift */; };
 		84AEAF2C20C75C4E00E5006A /* TalentedIncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AEAF2B20C75C4E00E5006A /* TalentedIncUITests.swift */; };
+		EFF6B0ED30AEC420C416E349 /* Pods_TalentedInc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EFB19A60805FA02ECB5C82 /* Pods_TalentedInc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21EFB19A60805FA02ECB5C82 /* Pods_TalentedInc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalentedInc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84767A3520D1BB71006F1B8C /* skillbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillbackground.png; sourceTree = "<group>"; };
-		847B0C9D20D2897A00DD2886 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		8481A2BF20D17AA700449737 /* profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = profile.storyboard; sourceTree = "<group>"; };
 		8481A2C120D17F6A00449737 /* backgroundflat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundflat.png; sourceTree = "<group>"; };
 		8481A2C420D195B600449737 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
@@ -67,6 +67,8 @@
 		84AEAF2720C75C4E00E5006A /* TalentedIncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalentedIncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AEAF2B20C75C4E00E5006A /* TalentedIncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentedIncUITests.swift; sourceTree = "<group>"; };
 		84AEAF2D20C75C4F00E5006A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923324970B4CD1BF1BAD13F5 /* Pods-TalentedInc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentedInc.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalentedInc/Pods-TalentedInc.release.xcconfig"; sourceTree = "<group>"; };
+		F6B633C0B1618E733ACF4842 /* Pods-TalentedInc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentedInc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalentedInc/Pods-TalentedInc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF6B0ED30AEC420C416E349 /* Pods_TalentedInc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50D3F700BF0B7FA9BCD1DA1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B633C0B1618E733ACF4842 /* Pods-TalentedInc.debug.xcconfig */,
+				923324970B4CD1BF1BAD13F5 /* Pods-TalentedInc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8481A2BA20D17A0900449737 /* view */ = {
 			isa = PBXGroup;
 			children = (
 				8481A2D820D1A2C400449737 /* ProfileViewController.swift */,
-				847B0C9D20D2897A00DD2886 /* CollectionViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -153,6 +164,8 @@
 				84AEAF1F20C75C4E00E5006A /* TalentedIncTests */,
 				84AEAF2A20C75C4E00E5006A /* TalentedIncUITests */,
 				84AEAF0920C75C3500E5006A /* Products */,
+				50D3F700BF0B7FA9BCD1DA1E /* Pods */,
+				EE6FC4522E5FF03210E4B483 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +216,14 @@
 			path = TalentedIncUITests;
 			sourceTree = "<group>";
 		};
+		EE6FC4522E5FF03210E4B483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21EFB19A60805FA02ECB5C82 /* Pods_TalentedInc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AEAF3020C75C4F00E5006A /* Build configuration list for PBXNativeTarget "TalentedInc" */;
 			buildPhases = (
+				4283BC9866F21CC7A16E80C2 /* [CP] Check Pods Manifest.lock */,
 				84AEAF0420C75C3500E5006A /* Sources */,
 				84AEAF0520C75C3500E5006A /* Frameworks */,
 				84AEAF0620C75C3500E5006A /* Resources */,
+				CE08AD162D70153A08CAC227 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,12 +360,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4283BC9866F21CC7A16E80C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalentedInc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE08AD162D70153A08CAC227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TalentedInc/Pods-TalentedInc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalentedInc/Pods-TalentedInc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AEAF0420C75C3500E5006A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847B0C9E20D2897A00DD2886 /* CollectionViewController.swift in Sources */,
 				8481A2D920D1A2C400449737 /* ProfileViewController.swift in Sources */,
 				84AEAF0E20C75C3500E5006A /* ViewController.swift in Sources */,
 				84AEAF0C20C75C3500E5006A /* AppDelegate.swift in Sources */,
@@ -516,14 +579,12 @@
 		};
 		84AEAF3120C75C4F00E5006A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B633C0B1618E733ACF4842 /* Pods-TalentedInc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedInc/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedInc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -533,14 +594,12 @@
 		};
 		84AEAF3220C75C4F00E5006A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923324970B4CD1BF1BAD13F5 /* Pods-TalentedInc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedInc/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedInc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -555,11 +614,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -575,11 +630,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -594,11 +645,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -613,11 +660,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ProfileViewController: UITableViewController, UICollectionViewDelegate,UICollectionViewDataSource {
     
