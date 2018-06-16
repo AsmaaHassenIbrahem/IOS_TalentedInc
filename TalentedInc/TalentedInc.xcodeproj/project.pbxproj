@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84559E5920D53E8600AF157A /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E5820D53E8600AF157A /* InterestCollectionViewCell.swift */; };
+		84559E5B20D5433D00AF157A /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E5A20D5433D00AF157A /* ProfileViewModel.swift */; };
+		84559E5D20D548CA00AF157A /* ProfileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E5C20D548CA00AF157A /* ProfileClient.swift */; };
+		84559E6320D54A2700AF157A /* InstructorImagesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E5E20D54A2600AF157A /* InstructorImagesCollection.swift */; };
+		84559E6520D54A2700AF157A /* Instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6020D54A2600AF157A /* Instructor.swift */; };
+		84559E6620D54A2700AF157A /* InstructorUrlsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6120D54A2700AF157A /* InstructorUrlsCollection.swift */; };
+		84559E6720D54A2700AF157A /* InstructorVideosCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6220D54A2700AF157A /* InstructorVideosCollection.swift */; };
+		84559E6920D54B3100AF157A /* CategoryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6820D54B3100AF157A /* CategoryCollection.swift */; };
+		84559E6B20D54B8600AF157A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6A20D54B8600AF157A /* User.swift */; };
+		84559E6D20D552B200AF157A /* SkillsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84559E6C20D552B200AF157A /* SkillsCollection.swift */; };
 		84767A3620D1BB72006F1B8C /* skillbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 84767A3520D1BB71006F1B8C /* skillbackground.png */; };
 		8481A2C020D17AA700449737 /* profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8481A2BF20D17AA700449737 /* profile.storyboard */; };
 		8481A2C220D17F6A00449737 /* backgroundflat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8481A2C120D17F6A00449737 /* backgroundflat.png */; };
@@ -45,6 +55,16 @@
 
 /* Begin PBXFileReference section */
 		21EFB19A60805FA02ECB5C82 /* Pods_TalentedInc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalentedInc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84559E5820D53E8600AF157A /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		84559E5A20D5433D00AF157A /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		84559E5C20D548CA00AF157A /* ProfileClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileClient.swift; sourceTree = "<group>"; };
+		84559E5E20D54A2600AF157A /* InstructorImagesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorImagesCollection.swift; sourceTree = "<group>"; };
+		84559E6020D54A2600AF157A /* Instructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructor.swift; sourceTree = "<group>"; };
+		84559E6120D54A2700AF157A /* InstructorUrlsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorUrlsCollection.swift; sourceTree = "<group>"; };
+		84559E6220D54A2700AF157A /* InstructorVideosCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructorVideosCollection.swift; sourceTree = "<group>"; };
+		84559E6820D54B3100AF157A /* CategoryCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollection.swift; sourceTree = "<group>"; };
+		84559E6A20D54B8600AF157A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84559E6C20D552B200AF157A /* SkillsCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsCollection.swift; sourceTree = "<group>"; };
 		84767A3520D1BB71006F1B8C /* skillbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillbackground.png; sourceTree = "<group>"; };
 		8481A2BF20D17AA700449737 /* profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = profile.storyboard; sourceTree = "<group>"; };
 		8481A2C120D17F6A00449737 /* backgroundflat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundflat.png; sourceTree = "<group>"; };
@@ -110,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				8481A2D820D1A2C400449737 /* ProfileViewController.swift */,
+				84559E5820D53E8600AF157A /* InterestCollectionViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -117,6 +138,7 @@
 		8481A2BB20D17A2800449737 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				84559E5A20D5433D00AF157A /* ProfileViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -124,6 +146,13 @@
 		8481A2BC20D17A4800449737 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				84559E6820D54B3100AF157A /* CategoryCollection.swift */,
+				84559E6020D54A2600AF157A /* Instructor.swift */,
+				84559E5E20D54A2600AF157A /* InstructorImagesCollection.swift */,
+				84559E6120D54A2700AF157A /* InstructorUrlsCollection.swift */,
+				84559E6220D54A2700AF157A /* InstructorVideosCollection.swift */,
+				84559E6C20D552B200AF157A /* SkillsCollection.swift */,
+				84559E6A20D54B8600AF157A /* User.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -131,6 +160,7 @@
 		8481A2BD20D17A5200449737 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				84559E5C20D548CA00AF157A /* ProfileClient.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -406,9 +436,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84559E6D20D552B200AF157A /* SkillsCollection.swift in Sources */,
+				84559E6B20D54B8600AF157A /* User.swift in Sources */,
+				84559E6620D54A2700AF157A /* InstructorUrlsCollection.swift in Sources */,
+				84559E6720D54A2700AF157A /* InstructorVideosCollection.swift in Sources */,
+				84559E5920D53E8600AF157A /* InterestCollectionViewCell.swift in Sources */,
+				84559E6520D54A2700AF157A /* Instructor.swift in Sources */,
 				8481A2D920D1A2C400449737 /* ProfileViewController.swift in Sources */,
 				84AEAF0E20C75C3500E5006A /* ViewController.swift in Sources */,
 				84AEAF0C20C75C3500E5006A /* AppDelegate.swift in Sources */,
+				84559E5D20D548CA00AF157A /* ProfileClient.swift in Sources */,
+				84559E6920D54B3100AF157A /* CategoryCollection.swift in Sources */,
+				84559E6320D54A2700AF157A /* InstructorImagesCollection.swift in Sources */,
+				84559E5B20D5433D00AF157A /* ProfileViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +624,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedInc/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedInc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -599,7 +642,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedInc/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedInc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -614,7 +660,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -630,7 +680,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -645,7 +699,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -660,7 +718,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TalentedIncUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Inc.TalentedIncUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
