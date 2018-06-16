@@ -138,7 +138,6 @@
 		8481A2BB20D17A2800449737 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
-				84559E5A20D5433D00AF157A /* ProfileViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -146,13 +145,6 @@
 		8481A2BC20D17A4800449737 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				84559E6820D54B3100AF157A /* CategoryCollection.swift */,
-				84559E6020D54A2600AF157A /* Instructor.swift */,
-				84559E5E20D54A2600AF157A /* InstructorImagesCollection.swift */,
-				84559E6120D54A2700AF157A /* InstructorUrlsCollection.swift */,
-				84559E6220D54A2700AF157A /* InstructorVideosCollection.swift */,
-				84559E6C20D552B200AF157A /* SkillsCollection.swift */,
-				84559E6A20D54B8600AF157A /* User.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -161,6 +153,14 @@
 			isa = PBXGroup;
 			children = (
 				84559E5C20D548CA00AF157A /* ProfileClient.swift */,
+				84559E6820D54B3100AF157A /* CategoryCollection.swift */,
+				84559E6020D54A2600AF157A /* Instructor.swift */,
+				84559E5E20D54A2600AF157A /* InstructorImagesCollection.swift */,
+				84559E6120D54A2700AF157A /* InstructorUrlsCollection.swift */,
+				84559E6220D54A2700AF157A /* InstructorVideosCollection.swift */,
+				84559E6C20D552B200AF157A /* SkillsCollection.swift */,
+				84559E6A20D54B8600AF157A /* User.swift */,
+				84559E5A20D5433D00AF157A /* ProfileViewModel.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
